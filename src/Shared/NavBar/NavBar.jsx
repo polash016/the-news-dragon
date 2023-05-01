@@ -8,6 +8,10 @@ const NavBar = () => {
   const {user, logOut} = useContext(AuthContext)
   const handleLogOut = () => {
     logOut()
+    .then()
+    .then(error=>{
+      console.log(error)
+    })
   }
   return (
       <Container className="mb-4">

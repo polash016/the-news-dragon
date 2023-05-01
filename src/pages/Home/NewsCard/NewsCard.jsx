@@ -8,7 +8,6 @@ import { Link } from "react-router-dom";
 
 const NewsCard = ({ news }) => {
   const { _id, title, details, image_url, author, rating, total_view } = news;
-  console.log(news);
   return (
     <Card className="mb-4">
       <Card.Header className="d-flex gap-2 align-items-center">
